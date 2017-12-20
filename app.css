@@ -1,0 +1,140 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding: 15px 35px;
+  max-width: 1250px;
+  margin: auto;
+}
+
+.topper {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 1.375rem;
+  line-height: 1.25;
+  letter-spacing: -.04em;
+}
+
+img {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.main img {
+  height: 120px;
+}
+
+.top-sub img {
+  height: 130px;
+}
+
+.main a, .bottoms > .left a {
+  color: #cd150c;
+}
+
+.main a:hover, .bottoms > .left a:hover {
+  color: #f03018;
+}
+
+.main {
+  min-width: 500px;
+  max-width: 650px;
+}
+
+.main-subs {
+  margin-top: 20px;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-subs a {
+  flex: 1;
+  padding: 0 5px;
+}
+
+.main-first {
+  font-size: 3.5rem;
+  line-height: 1.1;
+  letter-spacing: -.03em;
+}
+
+.top-sub {
+  min-width: 200px;
+  max-width: 300px;
+  border-left: 1px solid #eee;
+  margin-left: 25px;
+  padding: 5px 0 5px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top-sub a {
+  padding: 10px 0;
+}
+
+.top-sub.left a, .bottoms > .center a {
+  color: #359e00;
+}
+
+.top-sub.left a:hover, .bottoms > .center a:hover {
+  color: #61c013;
+}
+
+.top-sub.right a, .bottoms > .right a {
+  color: #ff8100;
+}
+
+.top-sub.right a:hover, .bottoms > .right a:hover {
+  color: #ff9f00;
+}
+
+.bottoms {
+  font-weight: 700;
+  font-size: 1.375rem;
+  line-height: 1.25;
+  letter-spacing: -.04em;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottoms>div {
+  max-width: 370px;
+}
+
+.bottoms img {
+  height: 220px;
+  text-align: center;
+}
+
+.subcol > .thumb {
+  display: flex;
+  margin-top: 20px;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+  font-size: 1.125rem;
+  line-height: 1.3;
+  letter-spacing: -.035em;
+  align-items: center;
+}
+
+.subcol img {
+  max-width: 120px;
+  height: 80px;
+  margin-right: 10px;
+}
